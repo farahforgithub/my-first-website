@@ -1,0 +1,138 @@
+body {
+    margin: auto;
+    border: #ff9aa2 solid 15px;
+    color: #ff9aa2;
+}
+
+/*-- Tooltip -- */
+/* change background*/
+.tooltip-inner {
+    background-color: #ff9aa2;
+}
+/* change arrow background */
+.tooltip.bs-tooltip-auto[x-placement^=top] .arrow::before, .tooltip.bs-tooltip-top .arrow::before {
+    margin-left: -3px;
+    content: "";
+    border-width: 5px 5px 0;
+    border-top-color: #ff9aa2;
+}
+
+/*-- Toast --*/
+.toast {
+    z-index: 1; /* brings it to the front*/
+}
+
+.toast-place {
+    position: fixed;
+    /* left: 30px; */
+    right: 30px;
+    top: 30px;
+    /* opacity: 70%; */
+}
+
+.toast-header {
+    background-color: #ff9aa2;
+}
+.rounded {
+    width: 30px;
+}
+
+/*-- Big container  holding everything --*/
+.container-fluid {
+    text-align: center;
+}
+
+/*-- Text and subtext at the top --*/
+.display-1 {
+    margin: 4rem;
+    margin-bottom: 0;
+}
+
+.display-4 {
+    font-size: 30px;
+    margin-bottom: 4rem;
+}
+
+/* Padding all columns to create bag in the rows*/
+.column {
+    /* border: black 1px solid; */
+    padding: 10px;
+}
+
+/* Adjusted padding for 2 bottom cols*/
+.col-in-1 {
+   padding-right: 10px;
+}
+
+.col-in-2 {
+    padding-left: 10px;
+}
+
+/* Setting height of all columns since they've empty divs */
+.bloop {
+   width: 100%;
+   height: 150px;
+}
+  
+/* Coloring the divs*/
+.first {
+  background-color: #F1D0CD;
+  height: 100%;
+}
+  
+.second {
+  background-color: #b28dff;
+}
+  
+.third {
+  background-color: #c5a3ff;
+}
+  
+.fourth {
+  background-color: #ecd4ff;
+}
+  
+.fifth {
+  background-color: #fcc2ff;
+}
+  
+/* .sixth {
+  background-color: #ff9cee;
+} */
+
+.seventh {
+    background-color: #BDACBD;
+}
+
+.eighth {
+    background-color: #9F9BB0;
+}
+
+.nineth {
+    background-color: #E0BBE4;
+}
+
+.tenth {
+    background-color: #957DAD;
+}
+
+.eleventh {
+    background-color: #D291BC;
+}
+
+.twelveth {
+    background-color: #FEC8D8;
+}
+
+.thirteenth {
+    background-color: #FFDFD3;
+}
+
+/*-- Footer --*/
+footer {
+    margin: 4rem auto;
+}
+
+footer .display-4 {
+    font-size: 20px;
+}
